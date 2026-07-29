@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "name": "users",
+      "fields": {
+        "id": "string",
+        "username": "string",
+        "fullName": "string",
+        "avatarUrl": "string",
+        "bio": "string",
+        "verified": "boolean",
+        "followersCount": "number",
+        "followingCount": "number",
+        "postsCount": "number",
+        "createdAt": "timestamp"
+      }
+    },
+    {
+      "name": "posts",
+      "fields": {
+        "id": "string",
+        "userId": "string",
+        "caption": "string",
+        "mediaUrl": "string",
+        "mediaType": "string",
+        "likesCount": "number",
+        "commentsCount": "number",
+        "sharesCount": "number",
+        "hashtags": "array",
+        "location": "string",
+        "createdAt": "timestamp"
+      }
+    },
+    {
+      "name": "comments",
+      "fields": {
+        "id": "string",
+        "postId": "string",
+        "userId": "string",
+        "text": "string",
+        "likesCount": "number",
+        "createdAt": "timestamp"
+      }
+    },
+    {
+      "name": "chats",
+      "fields": {
+        "id": "string",
+        "senderId": "string",
+        "receiverId": "string",
+        "text": "string",
+        "createdAt": "timestamp"
+      }
+    }
+  ]
+}

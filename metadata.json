@@ -1,0 +1,6 @@
+{
+  "name": "MingleLoop",
+  "description": "MingleLoop - Social media and messaging application featuring Posts, Reels, Stories, Real-time Chat, Voice/Video Calls, and Gemini AI integration.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
